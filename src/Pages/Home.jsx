@@ -17,7 +17,7 @@ const Home = () => {
     }
 
     try {
-      const res = await axios.post("http://localhost:3000/login", {
+      const res = await axios.post("https://backendlogin-nv5h.onrender.com", {
         email,
         password: pass,
       });
