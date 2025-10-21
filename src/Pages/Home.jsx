@@ -17,7 +17,7 @@ const Home = () => {
     }
 
     try {
-      const res = await axios.post("https://backend-login.onrender.com/login", {
+      const res = await axios.post("https://backend-login-six.vercel.app/", {
         email,
         password: pass,
       });
