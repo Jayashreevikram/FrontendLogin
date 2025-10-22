@@ -17,7 +17,8 @@ const Home = () => {
     }
 
     try {
-      const res = await axios.post("https://backend-login-six.vercel.login/", {
+      // ✅ Correct backend endpoint
+      const res = await axios.post("https://backend-login-six.vercel.app/login", {
         email,
         password: pass,
       });
